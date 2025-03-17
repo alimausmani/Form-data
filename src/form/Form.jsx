@@ -9,7 +9,7 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate('/FormDetails', { state: { name, email } });
+    navigate('/FormDetail', { state: { name, email } });
   };
 
   return (
